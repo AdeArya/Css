@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>dropdown</title>
+        <style>
+            .page{
+                display: inline-block;
+            }
+            .button{
+                border: none;
+                background-color: violet;
+                padding: 10px;
+                display: block;
+            }
+            .page:hover .list{
+                display: block;
+            }
+            .list{
+                display: none;
+                background-color: cyan;
+            }
+            a{
+                display: block;  
+                padding: 10px;
+                text-decoration: none
+            }
+        </style>
+    </head>
+    <body>
+        <h1>hello world!</h1>
+        <div class="page">
+            <button class="button">dropdown</button>
+            <div class="list">
+                <a href="">home</a>
+                <a href="">about</a>
+                <a href="">news</a>
+            </div>
+        </div>
+    </body>
+</html>
